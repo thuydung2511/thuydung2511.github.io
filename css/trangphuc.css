@@ -1,0 +1,115 @@
+
+    .trangphuc{
+        font-size: 20px;
+        width: 20%;
+        margin: 20px;
+        display: inline-block;
+        text-shadow: 4px 3px 2px darkgray ;
+        background:#645ad4;
+        padding-top: 30px;
+        color: white;
+     }
+     .container{
+        position: relative;
+        height: 500px;
+        border: 2px solid black;
+        box-shadow: 0 0 15px black;   
+    } 
+    .container>iframe{
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+    .container>.right{
+        width: 23%;
+        height: 10%;
+        float: left;
+    }
+    .container>.right>a{
+        text-decoration: none;
+        height: 100px;
+    }
+    .container>.right>a>img{
+        width:90%;
+        height: 150px;
+        padding: 8px;
+        text-align: center;
+    }
+   
+    .slide{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+   
+ 
+    .content h1{
+        font-size: 55px;
+        font-weight: 500;
+        color: beige;
+        text-shadow: 1px 0 2px red;
+    }
+    .content button{
+        font-size: 40px;
+        background: red;
+        color: white;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 0 2px white;
+        padding: 5px 12px;
+    }
+    .content{
+        position: relative;
+        top:150%;
+        left: 55%;
+    }  
+.btn-lg:hover{
+    background-color: #50bda5;
+    color: black;}
+
+    .aside  {
+        font-size: 20px;
+       
+        width: 45%;
+   }
+    aside{
+        float:right;
+    }
+    #hv{
+        width: 100%;
+        padding-top: 10px;     
+    }
+    .hv1{   
+        padding-left: 50px;
+        width: 100%;
+    
+    }
+    
+    .aside{
+        padding-left: 10%;
+    }
+    .aside{
+        padding-left: 10%;
+    }
+    footer{
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+        float: left;
+       width: 100%;
+       background-color: rgb(208, 208, 243);
+    }
+.footer1{
+    float: left;
+    width: 50%;
+}
+.footer2{
+    float: left;
+    width: 50%;
+}
+   
